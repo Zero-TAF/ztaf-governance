@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Proposed |
+| Status | Accepted |
 | Date | 2026-11-22 |
 | Owner | Emmanuel A. Otchere |
 | Layer | Governance |

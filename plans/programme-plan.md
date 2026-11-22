@@ -114,7 +114,7 @@ Authority ladder descends (a repo depends on the tier below, never above) — sa
 2. **Citation unit:** org-qualified GitHub URLs + the target's own identifiers. Never restate external clause text as ours.
 3. **No invented IDs:** bind ZT concepts to WSF/ES concepts; bind controls to `dea:` records; where a target lacks a record, declare a gap and lodge a contribution (NM-INT-5 pattern).
 4. **Lodging contributions:** prepared in `ztaf-bindings/contributions/`, filed as CRs in the target repo's own change-request shape, executed only with owner sign-off (outward-facing action). First two candidates when Wave 6 lands: reciprocal citation in `dea-catalog-agent-foundry`; concept assertions in `enterprise-semantics-mappings`.
-5. **The AOP CR (inbound, Wave 1):** lodge `CR-0XX` in `aop-governance` — "Recognise Zero-TAF as the trust framework whose runtime realisation AOP profiles" — with the clause-map table and the statement that ADR-0004 remains in force (Zero-TAF is a distinct framework, not an AOP security repo).
+5. **The AOP CR (inbound, Wave 1):** lodged as **CR-038** in `aop-governance` — "Recognise Zero-TAF as the trust framework whose runtime realisation AOP profiles" — filed and merged 2026-11-23 (PR #22); the repository map §5 carries the one-way direction-of-authority statement and ADR-0004 remains in force (Zero-TAF is a distinct framework, not an AOP security repo).
 6. **Governance-pattern reuse:** ADR/CR/finding/templates with ZTAF prefixes (pattern lineage cited to WSF→AOP, not reinvented).
 
 ---
@@ -137,7 +137,7 @@ Authority ladder descends (a repo depends on the tier below, never above) — sa
 3. Seed each repo: README with "owns / does not own" sections + authority/tier/wave/status table (AOP convention); move `ADR-ZTAF-000.md` + `research/` + `plan/` into `ztaf-governance` (decisions/ and docs/foundational-research/).
 4. Draft ADR-ZTAF-0001..0007 from §5 (status: Proposed).
 5. Local workspace: `git init`, connect remotes, mirror estate layout under `/Volumes/512GBORICO/Developer/Zero-TAF/`.
-6. (Owner sign-off item) Lodge the AOP CR per §6.5.
+6. ~~(Owner sign-off item) Lodge the AOP CR per §6.5.~~ **Done 2026-11-23: filed and merged as CR-038** (agentic-operating-procedure/aop-governance PR #22).
 
 **Explicitly deferred (need their own CRs):** Waves 2–6 repos; any upstream contributions; any MCP SEP / IETF engagement beyond monitoring; NCCoE submission package.
 

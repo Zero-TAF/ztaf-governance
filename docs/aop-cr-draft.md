@@ -1,3 +1,9 @@
+# AOP Recognition CR — FILED as CR-038
+
+> **FILED and merged 2026-11-23:** [CR-038 in `agentic-operating-procedure/aop-governance`](https://github.com/agentic-operating-procedure/aop-governance/blob/main/change-requests/CR-038-recognise-zero-taf-trust-framework.md), merged via PR [#22](https://github.com/agentic-operating-procedure/aop-governance/pull/22) with the repository map §5 "Trust framework" bullet and the register row. The pre-filing draft is preserved below for the record; the filed text differs only in scope wording adapted to the AOP CR template and cascade checklist.
+
+---
+
 # Draft — CR for lodging in `agentic-operating-procedure/aop-governance`
 
 > **Status: DRAFT — not filed.** Filing this CR in the AOP programme's governance repository is an outward-facing action and proceeds only on the owner's explicit call, per the AOP programme's contributions convention. The text below follows the AOP CR template (fields: Status | Date | Owner | Layer | Depends on; sections 1–6). On approval, it is filed as the next free CR number in `agentic-operating-procedure/aop-governance/change-requests/` and registered in their CR register.

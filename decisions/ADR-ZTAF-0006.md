@@ -2,12 +2,12 @@
 
 | Field | Value |
 |---|---|
-| Status | Proposed |
+| Status | Accepted |
 | Date | 2026-11-22 |
 | Owner | Emmanuel A. Otchere |
 | Layer | Governance |
 | Supersedes | — |
-| Cross-references | ADR-ZTAF-0001 · ADR-ZTAF-0002 · `docs/aop-cr-draft.md` (the CR to be lodged in `agentic-operating-procedure/aop-governance`) · AOP `aop-spec` SEC-1..SEC-17, `aop-foundations` glossary AOP-024/030–034, `aop-governance` ADR-0006 |
+| Cross-references | ADR-ZTAF-0001 · ADR-ZTAF-0002 · [CR-038 in `agentic-operating-procedure/aop-governance`](https://github.com/agentic-operating-procedure/aop-governance/blob/main/change-requests/CR-038-recognise-zero-taf-trust-framework.md) (filed and merged 2026-11-23, PR #22) · AOP `aop-spec` SEC-1..SEC-17, `aop-foundations` glossary AOP-024/030–034, `aop-governance` ADR-0006 |
 
 ## Context
 
@@ -17,7 +17,7 @@ The Agentic Operating Procedure programme already realises four of Zero-TAF's ni
 
 1. Zero-TAF is the trust framework: the portable architecture and assurance model. AOP is a **realisation**: AOP procedures, harnesses, and conformance profiles implement Zero-TAF as a profile, exactly as the seed's placement ruling recommended (option C, hybrid).
 2. The mapping is **one-directional from each side**: Zero-TAF defines the trust semantics; AOP binds them into procedural execution. Neither programme copies the other's clauses. The binding map (clause-to-clause, ZT↔SEC↔TG) is a Wave-6 `ztaf-bindings` deliverable; until then the correspondence is recorded only at the level of this ADR and the AOP CR.
-3. The recognition is recorded in the AOP programme by a CR in `agentic-operating-procedure/aop-governance` (draft: `docs/aop-cr-draft.md`, filing requires owner sign-off as an outward-facing action).
+3. The recognition is recorded in the AOP programme by a CR in `agentic-operating-procedure/aop-governance`: **filed and merged as CR-038 on 2026-11-23** (PR #22), with the direction-of-authority statement added to the AOP repository map §5. The pre-filing draft is preserved at `docs/aop-cr-draft.md`.
 4. ADR-0004 of the AOP programme remains in force and untouched: Zero-TAF is a distinct framework, not an AOP security repository; its revival trigger is not tripped.
 5. Zero standing privilege, per-action enforcement, and evidence semantics added by Zero-TAF beyond AOP's current clauses (mandate chains, capability containment, behavioural verification, transparency anchoring, grades) are AOP profile extensions to be developed under Wave 2–5, never patches to AOP repos from this programme.
 
