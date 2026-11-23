@@ -37,8 +37,8 @@ The governance repository for the Zero-Trust Agent Framework programme: architec
 | `ztaf-adoption` | T1 | W1 | Active |
 | `ztaf-spec` | T2 | W2 | Active |
 | `ztaf-architecture` | T2 | W2 | Active |
-| `ztaf-evidence` | T3 | W3 | Gated by CR |
-| `ztaf-mandate` | T3 | W3 | Gated by CR |
+| `ztaf-evidence` | T3 | W3 | Active |
+| `ztaf-mandate` | T3 | W3 | Active |
 | `ztaf-reference-harness` | T4 | W4 | Gated by CR |
 | `ztaf-registry` | T4 | W4 | Gated by CR |
 | `ztaf-conformance` | T5 | W5 | Gated by CR |
