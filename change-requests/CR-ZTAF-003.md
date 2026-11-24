@@ -47,3 +47,7 @@ Out of scope: the decision-point integration (`ztaf-reference-harness`, Wave 4);
 - Not production software — both repositories are labelled reference-only in their READMEs; no CLI, persistence, or network.
 - Not the SCITT wire format — the anchoring profile pins the mapping, not the bytes; byte-pinning lands when the IETF receipts profiles publish.
 - Not a conformance claim — golden vectors are divergence detection between spec and code, not certification fixtures.
+
+## 7. Correction (2026-11-24)
+
+The programme self-review (FIND-0001, `findings/FIND-0001-wave3-test-coverage.md`) found that §4's vector-replay criterion had been reported green without the test ever being collected (missing `unittest.TestCase` subclass), and that the first real replay exposed a latent signature-verification defect (`Ed25519PrivateKey.from_public_bytes` used for public keys — verification silently always failed). Both fixed 2026-11-24; the suite is 16 tests, all ten vectors pass, regeneration is byte-identical. The §4 checklist above is left as originally written; this section and corrections register #13 carry the correction. Lesson adopted: every tests-green claim states the discovery invocation and the collected count.
